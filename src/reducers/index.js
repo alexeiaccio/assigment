@@ -1,21 +1,22 @@
-export default (state = { count: 0 }, action) => {
-  switch (action.type) {
-    case 'INCREMENT':
-      return {
-        ...state,
-        count: state.count + 1
-      }
-    case 'DECREMENT':
-      return {
-        ...state,
-        count: state.count - 1
-      }
-    case 'CHOOSE_COUNT':
-      return {
-        ...state,
-        count: action.payload
-      }
-    default:
-      return state
-  }
+import { combineReducers } from 'redux'
+import byId, * as fromById from './byId'
+import createList, * as fromList from './createList'
+
+const listByFilter = combineReducers({
+  all: createList('all'),
+})
+
+const news = combineReducers({
+  byId,
+  listByFilter,
+})
+
+export default news
+
+export const getVisibleNews = (state, filter) => {
+  const ids = fromList.getIds(state.listByFilter[filter])
+  return ids.map(id => fromById.getNews(state.byId, id))
 }
+
+export const getIsFetching = (state, filter) =>
+  fromList.getIsFetching(state.listByFilter[filter])

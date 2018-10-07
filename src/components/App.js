@@ -1,8 +1,7 @@
 import React from 'react'
-import { Link } from '@reach/router'
-import Counter from './Counter'
 import { injectGlobal } from 'emotion'
 
+import NewsList from './NewsList'
 import '../fonts/Helvetica/stylesheet.css'
 
 injectGlobal`
@@ -12,10 +11,7 @@ injectGlobal`
 `
 
 const App = () => (
-  <>
-    <Counter path="?count=2" />
-    <Link to="?count=2">2</Link>
-  </>
+  <NewsList />
 )
 
 export default App

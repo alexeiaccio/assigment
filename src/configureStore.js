@@ -1,17 +1,26 @@
-import { createStore } from 'redux'
+import { createStore, applyMiddleware } from 'redux'
+import { composeWithDevTools } from 'redux-devtools-extension'
+import thunk from 'redux-thunk'
+
 
 import { loadState, saveState } from './localStorage'
-import counter from './reducers'
+import reducers from './reducers'
 
 const configureStore = () => {
   const persistedState = loadState()
-  const store = createStore(counter, persistedState)
+
+  const store = createStore(
+    reducers,
+    persistedState,
+    composeWithDevTools(
+      applyMiddleware(thunk)
+    )
+  )
 
   store.subscribe(() => {
-    saveState({
-      count: store.getState().count,
-    })
+    saveState(store.getState())
   })
+
   return store
 }
 
