@@ -1,0 +1,53 @@
+{
+  "name": "assigment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "postcss tailwind.css -o tailwind.custom.css && webpack-dev-server --mode development",
+    "build": "postcss tailwind.css -o tailwind.custom.css && webpack-dev-server --mode production"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-loader": "^8.0.2",
+    "babel-plugin-emotion": "^9.2.11",
+    "babel-plugin-tailwind": "^0.1.10",
+    "css-loader": "^1.0.0",
+    "regenerator-runtime": "^0.12.1",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.1.2",
+    "@reach/router": "^1.2.1",
+    "emotion": "^9.2.12",
+    "file-loader": "^2.0.0",
+    "postcss": "^7.0.5",
+    "postcss-cli": "^6.0.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-emotion": "^9.2.12",
+    "react-hot-loader": "^4.3.11",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexeiaccio/assigment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexeiaccio/assigment/issues"
+  },
+  "homepage": "https://github.com/alexeiaccio/assigment#readme"
+}
