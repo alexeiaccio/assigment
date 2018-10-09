@@ -1,17 +1,14 @@
 import React from 'react'
-import { injectGlobal } from 'emotion'
+import { Router } from '@reach/router'
 
+import CategoryNewsList from './CategoryNewsList'
 import NewsList from './NewsList'
-import '../fonts/Helvetica/stylesheet.css'
-
-injectGlobal`
-  body {
-    ${tw(['font-sans', 'm-0'])};
-  }
-`
 
 const App = () => (
-  <NewsList />
+  <Router>
+    <NewsList path="/" />
+    <CategoryNewsList path="/:filter" />
+  </Router>
 )
 
 export default App

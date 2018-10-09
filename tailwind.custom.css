@@ -553,7 +553,7 @@ ul {
 *::after {
   border-width: 0;
   border-style: solid;
-  border-color: #dae4e9;
+  border-color: #d8d8d8;
 }
 
 /**
@@ -688,7 +688,7 @@ button,
 }
 
 .bg-grey-light {
-  background-color: #dae4e9;
+  background-color: #d8d8d8;
 }
 
 .bg-grey-lighter {
@@ -744,7 +744,7 @@ button,
 }
 
 .bg-orange {
-  background-color: #f6993f;
+  background-color: #f9621e;
 }
 
 .bg-orange-light {
@@ -984,7 +984,7 @@ button,
 }
 
 .hover\:bg-grey-light:hover {
-  background-color: #dae4e9;
+  background-color: #d8d8d8;
 }
 
 .hover\:bg-grey-lighter:hover {
@@ -1040,7 +1040,7 @@ button,
 }
 
 .hover\:bg-orange:hover {
-  background-color: #f6993f;
+  background-color: #f9621e;
 }
 
 .hover\:bg-orange-light:hover {
@@ -1340,7 +1340,7 @@ button,
 }
 
 .border-grey-light {
-  border-color: #dae4e9;
+  border-color: #d8d8d8;
 }
 
 .border-grey-lighter {
@@ -1396,7 +1396,7 @@ button,
 }
 
 .border-orange {
-  border-color: #f6993f;
+  border-color: #f9621e;
 }
 
 .border-orange-light {
@@ -1636,7 +1636,7 @@ button,
 }
 
 .hover\:border-grey-light:hover {
-  border-color: #dae4e9;
+  border-color: #d8d8d8;
 }
 
 .hover\:border-grey-lighter:hover {
@@ -1692,7 +1692,7 @@ button,
 }
 
 .hover\:border-orange:hover {
-  border-color: #f6993f;
+  border-color: #f9621e;
 }
 
 .hover\:border-orange-light:hover {
@@ -3626,7 +3626,7 @@ button,
 }
 
 .text-grey-light {
-  color: #dae4e9;
+  color: #d8d8d8;
 }
 
 .text-grey-lighter {
@@ -3682,7 +3682,7 @@ button,
 }
 
 .text-orange {
-  color: #f6993f;
+  color: #f9621e;
 }
 
 .text-orange-light {
@@ -3922,7 +3922,7 @@ button,
 }
 
 .hover\:text-grey-light:hover {
-  color: #dae4e9;
+  color: #d8d8d8;
 }
 
 .hover\:text-grey-lighter:hover {
@@ -3978,7 +3978,7 @@ button,
 }
 
 .hover\:text-orange:hover {
-  color: #f6993f;
+  color: #f9621e;
 }
 
 .hover\:text-orange-light:hover {
@@ -4187,6 +4187,10 @@ button,
 
 .hover\:text-pink-lightest:hover {
   color: #ffebef;
+}
+
+.text-xxs {
+  font-size: .6875rem;
 }
 
 .text-xs {
@@ -4594,7 +4598,7 @@ button,
   }
 
   .sm\:bg-grey-light {
-    background-color: #dae4e9;
+    background-color: #d8d8d8;
   }
 
   .sm\:bg-grey-lighter {
@@ -4650,7 +4654,7 @@ button,
   }
 
   .sm\:bg-orange {
-    background-color: #f6993f;
+    background-color: #f9621e;
   }
 
   .sm\:bg-orange-light {
@@ -4890,7 +4894,7 @@ button,
   }
 
   .sm\:hover\:bg-grey-light:hover {
-    background-color: #dae4e9;
+    background-color: #d8d8d8;
   }
 
   .sm\:hover\:bg-grey-lighter:hover {
@@ -4946,7 +4950,7 @@ button,
   }
 
   .sm\:hover\:bg-orange:hover {
-    background-color: #f6993f;
+    background-color: #f9621e;
   }
 
   .sm\:hover\:bg-orange-light:hover {
@@ -5246,7 +5250,7 @@ button,
   }
 
   .sm\:border-grey-light {
-    border-color: #dae4e9;
+    border-color: #d8d8d8;
   }
 
   .sm\:border-grey-lighter {
@@ -5302,7 +5306,7 @@ button,
   }
 
   .sm\:border-orange {
-    border-color: #f6993f;
+    border-color: #f9621e;
   }
 
   .sm\:border-orange-light {
@@ -5542,7 +5546,7 @@ button,
   }
 
   .sm\:hover\:border-grey-light:hover {
-    border-color: #dae4e9;
+    border-color: #d8d8d8;
   }
 
   .sm\:hover\:border-grey-lighter:hover {
@@ -5598,7 +5602,7 @@ button,
   }
 
   .sm\:hover\:border-orange:hover {
-    border-color: #f6993f;
+    border-color: #f9621e;
   }
 
   .sm\:hover\:border-orange-light:hover {
@@ -7520,7 +7524,7 @@ button,
   }
 
   .sm\:text-grey-light {
-    color: #dae4e9;
+    color: #d8d8d8;
   }
 
   .sm\:text-grey-lighter {
@@ -7576,7 +7580,7 @@ button,
   }
 
   .sm\:text-orange {
-    color: #f6993f;
+    color: #f9621e;
   }
 
   .sm\:text-orange-light {
@@ -7816,7 +7820,7 @@ button,
   }
 
   .sm\:hover\:text-grey-light:hover {
-    color: #dae4e9;
+    color: #d8d8d8;
   }
 
   .sm\:hover\:text-grey-lighter:hover {
@@ -7872,7 +7876,7 @@ button,
   }
 
   .sm\:hover\:text-orange:hover {
-    color: #f6993f;
+    color: #f9621e;
   }
 
   .sm\:hover\:text-orange-light:hover {
@@ -8081,6 +8085,10 @@ button,
 
   .sm\:hover\:text-pink-lightest:hover {
     color: #ffebef;
+  }
+
+  .sm\:text-xxs {
+    font-size: .6875rem;
   }
 
   .sm\:text-xs {
@@ -8489,7 +8497,7 @@ button,
   }
 
   .md\:bg-grey-light {
-    background-color: #dae4e9;
+    background-color: #d8d8d8;
   }
 
   .md\:bg-grey-lighter {
@@ -8545,7 +8553,7 @@ button,
   }
 
   .md\:bg-orange {
-    background-color: #f6993f;
+    background-color: #f9621e;
   }
 
   .md\:bg-orange-light {
@@ -8785,7 +8793,7 @@ button,
   }
 
   .md\:hover\:bg-grey-light:hover {
-    background-color: #dae4e9;
+    background-color: #d8d8d8;
   }
 
   .md\:hover\:bg-grey-lighter:hover {
@@ -8841,7 +8849,7 @@ button,
   }
 
   .md\:hover\:bg-orange:hover {
-    background-color: #f6993f;
+    background-color: #f9621e;
   }
 
   .md\:hover\:bg-orange-light:hover {
@@ -9141,7 +9149,7 @@ button,
   }
 
   .md\:border-grey-light {
-    border-color: #dae4e9;
+    border-color: #d8d8d8;
   }
 
   .md\:border-grey-lighter {
@@ -9197,7 +9205,7 @@ button,
   }
 
   .md\:border-orange {
-    border-color: #f6993f;
+    border-color: #f9621e;
   }
 
   .md\:border-orange-light {
@@ -9437,7 +9445,7 @@ button,
   }
 
   .md\:hover\:border-grey-light:hover {
-    border-color: #dae4e9;
+    border-color: #d8d8d8;
   }
 
   .md\:hover\:border-grey-lighter:hover {
@@ -9493,7 +9501,7 @@ button,
   }
 
   .md\:hover\:border-orange:hover {
-    border-color: #f6993f;
+    border-color: #f9621e;
   }
 
   .md\:hover\:border-orange-light:hover {
@@ -11415,7 +11423,7 @@ button,
   }
 
   .md\:text-grey-light {
-    color: #dae4e9;
+    color: #d8d8d8;
   }
 
   .md\:text-grey-lighter {
@@ -11471,7 +11479,7 @@ button,
   }
 
   .md\:text-orange {
-    color: #f6993f;
+    color: #f9621e;
   }
 
   .md\:text-orange-light {
@@ -11711,7 +11719,7 @@ button,
   }
 
   .md\:hover\:text-grey-light:hover {
-    color: #dae4e9;
+    color: #d8d8d8;
   }
 
   .md\:hover\:text-grey-lighter:hover {
@@ -11767,7 +11775,7 @@ button,
   }
 
   .md\:hover\:text-orange:hover {
-    color: #f6993f;
+    color: #f9621e;
   }
 
   .md\:hover\:text-orange-light:hover {
@@ -11976,6 +11984,10 @@ button,
 
   .md\:hover\:text-pink-lightest:hover {
     color: #ffebef;
+  }
+
+  .md\:text-xxs {
+    font-size: .6875rem;
   }
 
   .md\:text-xs {
@@ -12384,7 +12396,7 @@ button,
   }
 
   .lg\:bg-grey-light {
-    background-color: #dae4e9;
+    background-color: #d8d8d8;
   }
 
   .lg\:bg-grey-lighter {
@@ -12440,7 +12452,7 @@ button,
   }
 
   .lg\:bg-orange {
-    background-color: #f6993f;
+    background-color: #f9621e;
   }
 
   .lg\:bg-orange-light {
@@ -12680,7 +12692,7 @@ button,
   }
 
   .lg\:hover\:bg-grey-light:hover {
-    background-color: #dae4e9;
+    background-color: #d8d8d8;
   }
 
   .lg\:hover\:bg-grey-lighter:hover {
@@ -12736,7 +12748,7 @@ button,
   }
 
   .lg\:hover\:bg-orange:hover {
-    background-color: #f6993f;
+    background-color: #f9621e;
   }
 
   .lg\:hover\:bg-orange-light:hover {
@@ -13036,7 +13048,7 @@ button,
   }
 
   .lg\:border-grey-light {
-    border-color: #dae4e9;
+    border-color: #d8d8d8;
   }
 
   .lg\:border-grey-lighter {
@@ -13092,7 +13104,7 @@ button,
   }
 
   .lg\:border-orange {
-    border-color: #f6993f;
+    border-color: #f9621e;
   }
 
   .lg\:border-orange-light {
@@ -13332,7 +13344,7 @@ button,
   }
 
   .lg\:hover\:border-grey-light:hover {
-    border-color: #dae4e9;
+    border-color: #d8d8d8;
   }
 
   .lg\:hover\:border-grey-lighter:hover {
@@ -13388,7 +13400,7 @@ button,
   }
 
   .lg\:hover\:border-orange:hover {
-    border-color: #f6993f;
+    border-color: #f9621e;
   }
 
   .lg\:hover\:border-orange-light:hover {
@@ -15310,7 +15322,7 @@ button,
   }
 
   .lg\:text-grey-light {
-    color: #dae4e9;
+    color: #d8d8d8;
   }
 
   .lg\:text-grey-lighter {
@@ -15366,7 +15378,7 @@ button,
   }
 
   .lg\:text-orange {
-    color: #f6993f;
+    color: #f9621e;
   }
 
   .lg\:text-orange-light {
@@ -15606,7 +15618,7 @@ button,
   }
 
   .lg\:hover\:text-grey-light:hover {
-    color: #dae4e9;
+    color: #d8d8d8;
   }
 
   .lg\:hover\:text-grey-lighter:hover {
@@ -15662,7 +15674,7 @@ button,
   }
 
   .lg\:hover\:text-orange:hover {
-    color: #f6993f;
+    color: #f9621e;
   }
 
   .lg\:hover\:text-orange-light:hover {
@@ -15871,6 +15883,10 @@ button,
 
   .lg\:hover\:text-pink-lightest:hover {
     color: #ffebef;
+  }
+
+  .lg\:text-xxs {
+    font-size: .6875rem;
   }
 
   .lg\:text-xs {
@@ -16279,7 +16295,7 @@ button,
   }
 
   .xl\:bg-grey-light {
-    background-color: #dae4e9;
+    background-color: #d8d8d8;
   }
 
   .xl\:bg-grey-lighter {
@@ -16335,7 +16351,7 @@ button,
   }
 
   .xl\:bg-orange {
-    background-color: #f6993f;
+    background-color: #f9621e;
   }
 
   .xl\:bg-orange-light {
@@ -16575,7 +16591,7 @@ button,
   }
 
   .xl\:hover\:bg-grey-light:hover {
-    background-color: #dae4e9;
+    background-color: #d8d8d8;
   }
 
   .xl\:hover\:bg-grey-lighter:hover {
@@ -16631,7 +16647,7 @@ button,
   }
 
   .xl\:hover\:bg-orange:hover {
-    background-color: #f6993f;
+    background-color: #f9621e;
   }
 
   .xl\:hover\:bg-orange-light:hover {
@@ -16931,7 +16947,7 @@ button,
   }
 
   .xl\:border-grey-light {
-    border-color: #dae4e9;
+    border-color: #d8d8d8;
   }
 
   .xl\:border-grey-lighter {
@@ -16987,7 +17003,7 @@ button,
   }
 
   .xl\:border-orange {
-    border-color: #f6993f;
+    border-color: #f9621e;
   }
 
   .xl\:border-orange-light {
@@ -17227,7 +17243,7 @@ button,
   }
 
   .xl\:hover\:border-grey-light:hover {
-    border-color: #dae4e9;
+    border-color: #d8d8d8;
   }
 
   .xl\:hover\:border-grey-lighter:hover {
@@ -17283,7 +17299,7 @@ button,
   }
 
   .xl\:hover\:border-orange:hover {
-    border-color: #f6993f;
+    border-color: #f9621e;
   }
 
   .xl\:hover\:border-orange-light:hover {
@@ -19205,7 +19221,7 @@ button,
   }
 
   .xl\:text-grey-light {
-    color: #dae4e9;
+    color: #d8d8d8;
   }
 
   .xl\:text-grey-lighter {
@@ -19261,7 +19277,7 @@ button,
   }
 
   .xl\:text-orange {
-    color: #f6993f;
+    color: #f9621e;
   }
 
   .xl\:text-orange-light {
@@ -19501,7 +19517,7 @@ button,
   }
 
   .xl\:hover\:text-grey-light:hover {
-    color: #dae4e9;
+    color: #d8d8d8;
   }
 
   .xl\:hover\:text-grey-lighter:hover {
@@ -19557,7 +19573,7 @@ button,
   }
 
   .xl\:hover\:text-orange:hover {
-    color: #f6993f;
+    color: #f9621e;
   }
 
   .xl\:hover\:text-orange-light:hover {
@@ -19766,6 +19782,10 @@ button,
 
   .xl\:hover\:text-pink-lightest:hover {
     color: #ffebef;
+  }
+
+  .xl\:text-xxs {
+    font-size: .6875rem;
   }
 
   .xl\:text-xs {

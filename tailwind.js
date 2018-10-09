@@ -52,7 +52,7 @@ var colors = {
   'grey-darker': '#596a73',
   'grey-dark': '#70818a',
   grey: '#9babb4',
-  'grey-light': '#dae4e9',
+  'grey-light': '#d8d8d8',
   'grey-lighter': '#f3f7f9',
   'grey-lightest': '#fafcfc',
   white: '#ffffff',
@@ -68,7 +68,7 @@ var colors = {
   'orange-darkest': '#542605',
   'orange-darker': '#7f4012',
   'orange-dark': '#de751f',
-  orange: '#f6993f',
+  orange: '#f9621e',
   'orange-light': '#faad63',
   'orange-lighter': '#fcd9b6',
   'orange-lightest': '#fff5eb',
@@ -246,6 +246,7 @@ module.exports = {
   */
 
   textSizes: {
+    xxs: '.6875rem', // 11px
     xs: '.75rem', // 12px
     sm: '.875rem', // 14px
     base: '1rem', // 16px

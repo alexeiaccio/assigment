@@ -1,25 +1,42 @@
 import * as api from '../api'
-import { getIsFetching } from '../reducers'
 
-const requestNews = filter => ({
-  type: 'REQUEST_NEWS',
-  filter,
-})
+export const fetchNews = filter => dispatch => {
+  return api.fetchNews(filter).then(
+    response => {
+      dispatch({
+        type: 'FETCH_NEWS_SUCCESS',
+        filter,
+        response: response,
+      })
+    },
+    error => {
+      dispatch({
+        type: 'FETCH_NEWS_FAILURE',
+        filter,
+        message: error.message || 'Something went wrong.',
+      })
+    }
+  )
+}
 
-const receiveNews = (filter, response) => ({
-  type: 'RECEIVE_NEWS',
-  filter,
-  response,
-})
+export const addNews = newNews => dispatch => {
+  api.addNews(newNews).then(response => {
+    dispatch({
+      type: 'ADD_NEWS_SUCCESS',
+      response: response,
+    })
+  })
+}
 
-export const fetchNews = filter => (dispatch, getState) => {
-  if (getIsFetching(getState(), filter)) {
-    return Promise.resolve()
-  }
+export const updateNewNewsAction = value => dispatch => {
+  dispatch({
+    type: 'UPDATE_NEW_NEWS',
+    payload: value,
+  })
+}
 
-  dispatch(requestNews(filter))
-
-  return api.fetchNews(filter).then(response => {
-    dispatch(receiveNews(filter, response))
+export const toggleModal = () => dispatch => {
+  dispatch({
+    type: 'TOGGLE_MODAL',
   })
 }
