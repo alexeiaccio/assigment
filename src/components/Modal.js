@@ -6,7 +6,6 @@ import ModalToggler from './ModalToggler'
 import posed, { PoseGroup } from 'react-pose'
 import { connect } from 'react-redux'
 
-import backImg from '../assets/bitmap_2.jpg'
 import close from '../assets/close-button.svg'
 
 const AnimatedModal = posed.div({

@@ -14,7 +14,7 @@ import '../fonts/Helvetica/stylesheet.css'
 
 injectGlobal`
   body {
-    ${tw(['font-sans', 'm-0', 'overflow-x-hidden'])};
+    ${tw(['font-sans', 'm-0'])};
   }
   ul {
     ${tw(['px-2'])};
