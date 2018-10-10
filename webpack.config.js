@@ -38,7 +38,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'dist/'),
-    publicPath: '/dist/',
+    publicPath: './',
     filename: 'bundle.js',
     chunkFilename: '[name].bundle.js',
   },
@@ -50,7 +50,9 @@ module.exports = {
   },
   plugins: [
     new CleanWebpackPlugin(['dist']),
-    new HtmlWebpackPlugin(),
+    new HtmlWebpackPlugin({
+      template: 'src/assets/index.html'
+    }),
     new webpack.HotModuleReplacementPlugin()
   ],
 }
